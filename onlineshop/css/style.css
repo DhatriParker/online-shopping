@@ -1,0 +1,396 @@
+body 
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: "verdana";
+}
+#main 
+{
+    width: 960px;
+    min-height: 650px;
+    background-color: beige;
+    border:1px solid black;
+    margin: 3px auto;
+
+}
+#header 
+{
+    height: 200px;
+    border-bottom: 3px solid black;
+    
+}
+#leftlogo,#rightlogo 
+{
+    width: 150px;
+    height: 150px;
+    background-color:white;
+    float: left;
+}
+#center
+{
+    text-align: center;
+    width:660px;
+    height: 150px;
+    background-color:blueviolet;
+    float: left;
+}
+#center h1 
+{
+    margin: 5px 2px 7px auto;
+    font-size: 40px;
+    color:red;
+    text-shadow:2px 2px 10px black;
+}
+#center h3 
+{
+    margin-top:0px ;
+    color:black;
+    font-family: cursive;
+}
+#userinfo
+{
+    height: 30px;
+    width: 250px;
+    background-color: brown;
+    border-radius: 10px;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    margin: 2px auto;
+}
+#userinfo a
+{
+    color: white;
+}
+
+#leftlogo img, #rightlogo img
+{
+    width: 100%;
+    height: 100%;
+}
+#searchbar
+{
+    background-color:#335685;
+    height: 200px;
+    border: 1px solid black;
+    font-family: cursive;
+}
+#searchbar table
+{
+    margin: auto;
+    padding: 5px;
+    font-size: 25px;
+    color: white;
+
+
+}
+#searchbar input[type="search"]
+{
+    height: 30px;
+    width: 250px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 10px;
+
+}
+#searchbar input[type="submit"]
+{
+    height: 30px;
+    width: 50px;
+    font-size: 20px;
+    text-transform: capitalize;
+    border-radius: 10px;
+}    
+#container 
+{
+    min-height: 450px;
+}
+#footer
+{
+    background-color: black;
+    color:white; 
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+
+}
+a 
+{
+    text-decoration: none;
+    color:blue;
+}
+a:visited 
+{
+    color:blue;
+}
+#homeMenu 
+{
+    text-align: right;
+    padding: 5px;
+    
+}
+.Myform
+{
+    width: 500px;
+    min-height: 250px;
+    background-color: darkkhaki;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.Myform label
+{
+    display: block;
+    text-align: left;
+}
+.Myform div 
+{
+    
+    width: 80%;
+    margin: 5px auto;
+}
+.Myform input ,.Myform textarea,.Myform select
+{
+    font-size: 20px;
+    margin: 5px 0px;
+    padding: 2px;
+    color:blue;
+
+}
+.Myform input[type="text"], .Myform input[type="password"],.Myform textarea,.Myform input[type="date"],.Myform select 
+{
+    width: 100%;
+    border:2px solid black;
+}
+.Myform input[type="submit"],.Myform input[type="reset"],.Myform input[type="button"]
+{
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: gray;
+    color:white;
+}
+#resmessage
+{
+    background-color: red;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    color:white;
+    width: 100%;
+    margin: 5px 0px;
+}
+#parentContainer
+{
+    min-height:450px;
+    background-color: #525153;
+}
+#leftChildAdmin
+{
+   height: 100%;
+   width: 146px;
+   background-color: #525153;
+    display: inline-block;
+    vertical-align: top;
+}
+#rightChildAdmin
+{
+    height: 100%;
+    width: 808px;
+    background-color: rgb(238, 127, 219);
+    display: inline-block;
+    vertical-align: top;
+}
+#adminMenu 
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding-top: 40px;
+}
+#adminMenu li 
+{
+    padding: 5px 0px;
+    height: 24px;
+    text-align: center;
+}
+#adminMenu li a 
+{
+    color:yellow;
+    line-height: 24px;
+    display: block;
+}
+
+#adminMenu li a:hover 
+{
+    background-color: white;
+    color:black;
+} 
+#indexCategoryList
+{
+    background-color: blueviolet;
+    padding: 10px;
+}
+.category
+{
+    height: 200px;
+    width: 180px;
+    background-color: blue;
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-transform: capitalize;
+}
+.category img
+{
+    border: 3px solid black;
+}
+.category a
+{
+    color: white;
+}
+#indexProductList
+{
+    background-color: hotpink;
+    padding: 10px;
+}
+.product
+{
+    height: 350px;
+    width: 180px;
+    background-color: violet;
+    text-align: center;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-transform: capitalize;
+
+}
+.product img
+{
+    border: 2px solid black;
+    margin: 10px auto;
+}
+#buy
+{
+    height: 25px;
+    width: 150px;
+    background-color:#524615;
+    line-height: 25px;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+#buy a
+{
+    color: white;
+}
+.productqty
+{
+    height: 200px;
+    width: 300px;
+    background-color: darkkhaki;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+.productqty input[type="text"]
+{
+    height: 25px;
+    width: 70%;
+}
+.productqty input[type="submit"]
+{
+    width: 50px;
+    height: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#productbtn
+{
+    height: 150px;
+    width: 350px;
+    background-color: darkkhaki;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin: 20px auto;
+}
+#productbtn h3
+{
+    margin: 10px 1px auto;
+}
+.prodbuybtn h3
+{
+    height: 30px;
+    width: 200px;
+    background-color: brown;
+    line-height: 30px;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px auto;
+    text-align: center;
+}
+#subox
+{
+    margin: 20px auto;
+    min-height: 200px;
+    width: 300px;
+    background-color: darkkhaki;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#subox h3
+{
+    padding: 10px;
+}
+#subox input[type="submit"],input[type="reset"]
+{
+    height: 30px;
+    width: 70px;
+    margin: 10px 5px;
+}
+
+#subox textarea
+{
+    height: 100px;
+    width: 200px;
+
+}
+.showBill
+{
+    width: 700px;
+    min-height: 600px;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+.showBill button
+{
+    margin:20px 300px;
+    height: 30px;
+    width: 60px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+
+}
+#newsform
+{
+    min-height: 200px;
+    width:180px ;
+    background-color: darkkhaki;
+    margin: 20px;
+}

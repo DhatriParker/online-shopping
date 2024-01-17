@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<script src="./jquery.min.js"></script>
+	<script >
+		$(document).ready(
+				function() {
+					$("#btn1").click(function(){
+						$("#secondPara").fadeOut(2000);
+					});
+
+					$("#btn2").click(function(){
+						$("#secondPara").fadeIn(2000);
+					});
+
+					$("#btn3").click(function(){
+						$("#secondPara").slideToggle(2000);
+					});
+				}
+			);
+
+	</script>
+</head>
+<body>
+	<p>MY name is dhatri MY name is dhatri MY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatri</p>
+
+	<p id="secondPara">MY name is dhatri MY name is dhatri MY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatri name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMYname is dhatriMY name is dhatriMY</p>
+
+	<button id="btn1">Button 1</button>
+	<button id="btn2">Button 2</button>
+	<button id="btn3">Button 3</button>
+
+</body>
+</html>

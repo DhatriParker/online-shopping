@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<script src="./jquery.min.js"></script>
+	<script >
+		$(document).ready(
+				function() {
+					// $("#btn1").click(function(){
+					// 	$("#firstPara").animate({left:"300px", opacity:"0.3",fontSize:"30px"} ,3000);
+					// });
+
+					// $("#btn1").click(function(){
+					// 	$("#firstPara").animate({left:"310px", opacity:"0.3",fontSize:"30px"} ,3000,function(){alert("hello");});
+
+					$("#btn1").click(function(){
+						//$("#firstPara").append("<h1>Piyush jain</h1>");
+						//$("#firstPara").prepend("<h1>Piyush jain</h1>");
+						// $("img").after("<br>-------image not load----<br>");
+						// $("img").before("<br>-------image not load----<br>");
+
+						// $("p").remove();
+
+						// $("p").empty();
+						//$("p").empty();
+
+						//$("p").remove(".firstPara");
+						// $("img").addClass("myBig");
+						//$("img").removeClass("myBig");
+						$("img").toggleClass("myBig");
+					});
+
+				}
+			);
+
+	</script>
+	<style>
+		.myBig{
+			margin: 5px;
+			width: 500px;
+			height: 500px;
+		}
+		.firstPara{
+			width: 400px;
+			height:150px;
+			background-color: darkred;
+
+		}
+	</style>
+</head>
+<body>
+
+	<p class="firstPara">MY name is dhatri MY <h2 class="firstPara">name is dhatri</h2> MY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatri</p>
+	<img src="./img1.jgp">
+
+	<p id="secondPara">MY name is dhatri MY name is dhatri MY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatri name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMY name is dhatriMYname is dhatriMY name is dhatriMY dhatriMY name is dhatriMY name is dhatriMYname is dhatriMY name is dhatriMY dhatriMY name is dhatriMY name is dhatriMYname is dhatriMY name is dhatriMY dhatriMY name is dhatriMY name is dhatriMYname is dhatriMY name is dhatriMY dhatriMY name is dhatriMY name is dhatriMYname is dhatriMY name is dhatriMY</p>
+	<img src="./img1.jpg" width="100px">
+	<br>
+
+	<button id="btn1">Button 1</button>
+	<button id="btn2">Button 2</button>
+	<button id="btn3">Button 3</button>
+
+</body>
+</html>

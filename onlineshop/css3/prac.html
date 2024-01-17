@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Animation</title>
+
+	<style>
+		#main{
+			width:1300px;
+			height: 300px;
+			border: 1px solid black;
+			overflow: hidden;
+			display: inline-block;
+			
+		}
+		#child{
+			margin: 0px;
+
+			width: 300px;
+			border: 1px solid black;
+			height: 300px;
+			position: absolute;
+			animation-name: moveanim;
+			animation-duration: 25s;
+			animation-timeline: linear;
+			display: inline-block;
+
+		}
+		img{
+			width: 300px;
+			height: 300px;
+		}
+		@keyframes moveanim
+		{
+			0%{
+				transform: translateX(0px);
+				
+
+			}
+			24%{
+				transform: translateX(0px);
+				
+			}
+			25%{
+				transform: translateX(-305px);
+			}
+			49%{
+				transform: translateX(-305);
+			}
+			50% {
+                transform: translateX(-605px);
+            }
+
+            74% {
+                transform: translateX(-605px);
+            }
+
+            75% {
+                transform: translateX(-905px);
+            }
+
+            100% {
+                transform: translateX(-905px);
+            }
+
+		}
+
+
+	</style>
+</head>
+<body>
+<div id="main">
+			<img src="./img1.jpg">
+		<img src="./img2.jpg">
+		<img src="./img3.jpg">
+		<img src="./img4.jpg">
+	<div id="child">
+
+	</div>
+	</div>
+</body>
+</html>
